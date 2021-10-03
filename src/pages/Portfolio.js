@@ -28,8 +28,8 @@ function Portfolio() {
           <img
             src={project.image}
             className="card-img-top"
-            width={200}
-            height={200}
+            width={400}
+            height={400}
             alt={key}
           />
           <div className="card-body">
