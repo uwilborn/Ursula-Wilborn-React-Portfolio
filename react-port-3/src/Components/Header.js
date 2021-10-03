@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="bg-secondary text-center m-2 p-2">
-      <h1> Ursula Wilborn, 2021</h1>
+      <h1> Ursula Wilborn</h1>
       <ul className="nav justify-content-end">
         <li className="nav-item">
           <Link
