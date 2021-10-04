@@ -47,7 +47,7 @@ function Portfolio() {
     {
       name: "Portfolio 2",
       github: "https://github.com/uwilborn/Ursula-Wilborn-Portfolio.git",
-      live: "https://uwilborn.github.io/Ursula-Wilborn-Portfolio/",
+      live: "https://uwilborn.github.io/Ursula-Wilborn-Portfolio-2/",
       image: "/images/Portfolio2.png",
     },
     {
@@ -88,8 +88,8 @@ function Portfolio() {
     },
     {
       name: "Project 2: Interactive Full-Stack Application",
-      github: "https://github.com/uwilborn/Password-Generator",
-      live: "https://uwilborn.github.io/Password-Generator/",
+      github: "https://github.com/uwilborn/The-Hub",
+      live: "",
       image: "/images/Hub.png",
     },
     {
