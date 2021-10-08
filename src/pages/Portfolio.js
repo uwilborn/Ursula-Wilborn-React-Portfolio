@@ -6,7 +6,7 @@ function Portfolio() {
       name: "HTML, CSS, and Git: Code Refactor",
       github: "https://github.com/uwilborn/Horiseon-Improved-Accessibility",
       live: "https://uwilborn.github.io/Horiseon-Improved-Accessibility/",
-      image: "../../public/images/CodeRefactor.png",
+      image: "/images/CodeRefactor.png",
     },
     {
       name: "Portfolio",
@@ -138,27 +138,29 @@ function Portfolio() {
       name: "Final Project: MERN Stack Single-Page Application",
       github: "https://github.com/uwilborn/Password-Generator",
       live: "https://uwilborn.github.io/Password-Generator/",
-      image: "/images/FreeBird.png",
+      image: "./images/FreeBird.png",
     },
   ];
   return (
-    <div className="d-flex flex-wrap justify-content-between">
+    <div className="d-flex flex-wrap justify-content-between bg-secondary">
       {projects.map((project, key) => (
         <div className="card" style={{ width: "33%;" }}>
+          console.log(proje t)
           <img
             className="card-img-top"
             src={project.image}
+            // src={require(`${project.image}`)}
             width={400}
             height={400}
-            alt={key}
+            alt={project.name}
           />
           <div className="card-body">
             <h5 className="card-title">{project.name}</h5>
             <p className="card-text">Visit the Links</p>
-            <a href={project.github} className="btn btn-primary">
+            <a href={project.github} className="btn btn-primary m-1 p-1">
               Github
             </a>
-            <a href={project.live} className="btn btn-primary">
+            <a href={project.live} className="btn btn-primary m-1 p-1">
               Live
             </a>
           </div>
