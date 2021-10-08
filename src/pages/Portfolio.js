@@ -6,7 +6,7 @@ function Portfolio() {
       name: "HTML, CSS, and Git: Code Refactor",
       github: "https://github.com/uwilborn/Horiseon-Improved-Accessibility",
       live: "https://uwilborn.github.io/Horiseon-Improved-Accessibility/",
-      image: "/images/CodeRefactor.png",
+      image: "../../public/images/CodeRefactor.png",
     },
     {
       name: "Portfolio",
