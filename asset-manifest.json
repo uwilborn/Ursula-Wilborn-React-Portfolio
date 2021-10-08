@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Ursula-Wilborn-React-Portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/Ursula-Wilborn-React-Portfolio/static/js/main.1fac850f.chunk.js",
-    "main.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/main.1fac850f.chunk.js.map",
-    "runtime-main.js": "/Ursula-Wilborn-React-Portfolio/static/js/runtime-main.bc2162fa.js",
-    "runtime-main.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/runtime-main.bc2162fa.js.map",
-    "static/js/2.e60bb925.chunk.js": "/Ursula-Wilborn-React-Portfolio/static/js/2.e60bb925.chunk.js",
-    "static/js/2.e60bb925.chunk.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/2.e60bb925.chunk.js.map",
-    "static/js/3.06c12a2e.chunk.js": "/Ursula-Wilborn-React-Portfolio/static/js/3.06c12a2e.chunk.js",
-    "static/js/3.06c12a2e.chunk.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/3.06c12a2e.chunk.js.map",
+    "main.css": "/Ursula-Wilborn-React-Portfolio/static/css/main.052b6f2c.chunk.css",
+    "main.js": "/Ursula-Wilborn-React-Portfolio/static/js/main.62a7e90e.chunk.js",
+    "main.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/main.62a7e90e.chunk.js.map",
+    "runtime-main.js": "/Ursula-Wilborn-React-Portfolio/static/js/runtime-main.ba6cfe19.js",
+    "runtime-main.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/runtime-main.ba6cfe19.js.map",
+    "static/js/2.6016f2b1.chunk.js": "/Ursula-Wilborn-React-Portfolio/static/js/2.6016f2b1.chunk.js",
+    "static/js/2.6016f2b1.chunk.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/2.6016f2b1.chunk.js.map",
+    "static/js/3.4cb0fb16.chunk.js": "/Ursula-Wilborn-React-Portfolio/static/js/3.4cb0fb16.chunk.js",
+    "static/js/3.4cb0fb16.chunk.js.map": "/Ursula-Wilborn-React-Portfolio/static/js/3.4cb0fb16.chunk.js.map",
     "index.html": "/Ursula-Wilborn-React-Portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/Ursula-Wilborn-React-Portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.e60bb925.chunk.js.LICENSE.txt": "/Ursula-Wilborn-React-Portfolio/static/js/2.e60bb925.chunk.js.LICENSE.txt"
+    "static/css/main.052b6f2c.chunk.css.map": "/Ursula-Wilborn-React-Portfolio/static/css/main.052b6f2c.chunk.css.map",
+    "static/js/2.6016f2b1.chunk.js.LICENSE.txt": "/Ursula-Wilborn-React-Portfolio/static/js/2.6016f2b1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bc2162fa.js",
-    "static/js/2.e60bb925.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.1fac850f.chunk.js"
+    "static/js/runtime-main.ba6cfe19.js",
+    "static/js/2.6016f2b1.chunk.js",
+    "static/css/main.052b6f2c.chunk.css",
+    "static/js/main.62a7e90e.chunk.js"
   ]
 }
