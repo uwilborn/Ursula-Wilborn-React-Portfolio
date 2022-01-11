@@ -12,23 +12,27 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Header />
-        <Landing />
-        <Switch>
-          <Route exact path="/">
-            {About}
-          </Route>
-          <Route exact path="/about">
-            {About}
-          </Route>
-          <Route exact path="/contact">
-            {Contact}
-          </Route>
-          <Route exact path="/portfolio">
-            {Portfolio}
-          </Route>
-        </Switch>
-        <Footer />
+        <div className="flex-column justify-flex-start min-100-vh">
+          <Header />
+          <div className="container">
+            <Switch>
+              <Route exact path="/">
+                {Landing}
+              </Route>
+              <Route exact path="/about">
+                {About}
+              </Route>
+              <Route exact path="/contact">
+                {Contact}
+              </Route>
+              <Route exact path="/portfolio">
+                {Portfolio}
+              </Route>
+            </Switch>
+          </div>
+
+          <Footer />
+        </div>
       </BrowserRouter>
     </div>
   );

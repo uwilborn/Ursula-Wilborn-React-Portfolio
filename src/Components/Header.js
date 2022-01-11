@@ -1,32 +1,35 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../headerstyle.css";
 
 function Header() {
   return (
-    <header className="bg-secondary text-center m-2 p-2">
-      <h1>
-        <Link className="nav-link text-white" to="/">
-          Ursula Wilborn
+    <header className="header">
+      <img src="../pages/images/Purple_2053.jpg" className="logo" />
+      <h2>
+        <Link className="" to="/">
+          <span>Ursula Wilborn</span>
         </Link>
-      </h1>
-      <ul className="nav justify-content-end">
-        <li className="nav-item">
-          <Link
-            className="nav-link active text-white"
-            aria-current="page"
-            to="/"
-          >
-            About
+      </h2>
+      <ul className="nav-links">
+        <li className="">
+          <Link className="" aria-current="page" to="/">
+            <span>Home</span>
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link text-white" to="/portfolio">
-            Portfolio
+        <li className="">
+          <Link className="" to="/about">
+            <span>About</span>
           </Link>
         </li>
-        <li className="nav-item">
-          <Link className="nav-link text-white" to="/contact">
-            Contact
+        <li className="">
+          <Link className="" to="/portfolio">
+            <span>Portfolio</span>
+          </Link>
+        </li>
+        <li className="">
+          <Link className="" to="/contact">
+            <span>Contact</span>
           </Link>
         </li>
       </ul>
