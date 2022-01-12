@@ -28,7 +28,7 @@ body {
 .split {
   position: absolute;
   width: 50%;
-  height: 50%;
+  height: 100%;
   overflow: hidden;
 }
 

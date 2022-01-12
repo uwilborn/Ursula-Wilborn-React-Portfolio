@@ -6,11 +6,24 @@
 } */
 
 .header {
-  height: 15vh;
+  height: 20vh;
   width: 100%;
   padding: 0 8%;
-  background: rgb(66, 4, 95);
+  background: rgb(32, 30, 30);
   position: relative;
+}
+
+.headerleft {
+  position: relative;
+  float: left;
+  height: 20vh;
+  width: 10%;
+}
+
+.headerright {
+  position: relative;
+  height: 20vh;
+  width: 25%;
 }
 
 nav {
@@ -19,13 +32,15 @@ nav {
   justify-content: space-between;
 }
 
-h2 {
+.name {
   align-items: center;
   position: relative;
   color: #fff;
+  text-shadow: 0 0 0.2em rgb(214, 46, 54), 0 0 0.2em #f87;
+  font-size: 84px;
 }
 .logo {
-  width: 540px;
+  width: 340px;
 }
 
 .nav-links {
@@ -45,7 +60,7 @@ h2 {
 }
 .nav-links li a::after {
   content: "";
-  background: #f5880c;
+  background: #cc423ddc;
   width: 0;
   height: 2px;
   position: absolute;
@@ -59,7 +74,7 @@ h2 {
 }
 
 .btn {
-  background: #f5880c;
+  background: #cc423ddc;
   color: #fff;
   padding: 10px 30px;
   border-radius: 3px;
