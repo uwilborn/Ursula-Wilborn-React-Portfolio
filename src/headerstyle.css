@@ -9,7 +9,10 @@
   height: 20vh;
   width: 100%;
   padding: 0 8%;
-  background: rgb(32, 30, 30);
+  /* background: rgb(32, 30, 30); */
+  background-image: url("../src/pages/images/240_F_301901899_lalLiJJTviVxRPTpJ8ShYIe6TcpLbFqC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -17,13 +20,22 @@
   position: relative;
   float: left;
   height: 20vh;
-  width: 10%;
+  width: 25%;
+  background-image: url("../src/pages/images/drone-3874000__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -160px;
 }
 
 .headerright {
   position: relative;
+  float: right;
   height: 20vh;
   width: 25%;
+  background-image: url("../src/pages/images/drone-3874000__340.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: -160px;
 }
 
 nav {
@@ -34,15 +46,27 @@ nav {
 
 .name {
   align-items: center;
+  vertical-align: center;
   position: relative;
   color: #fff;
-  text-shadow: 0 0 0.2em rgb(214, 46, 54), 0 0 0.2em #f87;
+  text-shadow: 0 0 0.2em rgb(214, 86, 86), 0 0 0.2em rgb(214, 86, 86);
   font-size: 84px;
+  top: 50px;
 }
 .logo {
   width: 340px;
 }
 
+.menu {
+  height: 10vh;
+  width: 100%;
+  padding: 0 8%;
+  /* background: rgb(214, 86, 86); */
+  position: relative;
+  background-image: url("../src/pages/images/brown-wavy-smoke-black-background_23-2148210992.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .nav-links {
   padding: 28px 0;
 }
@@ -50,6 +74,7 @@ nav {
 .nav-links li {
   display: inline-block;
   margin: 0 15px;
+  font-size: 24px;
 }
 
 .nav-links li a {
@@ -60,7 +85,7 @@ nav {
 }
 .nav-links li a::after {
   content: "";
-  background: #cc423ddc;
+  background: #080808dc;
   width: 0;
   height: 2px;
   position: absolute;
@@ -74,9 +99,18 @@ nav {
 }
 
 .btn {
-  background: #cc423ddc;
+  background: rgb(214, 86, 86);
   color: #fff;
   padding: 10px 30px;
   border-radius: 3px;
   cursor: pointer;
+}
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  padding: 0 8%;
+  background: rgb(46, 45, 45);
+  position: relative;
+  bottom: 0;
 }

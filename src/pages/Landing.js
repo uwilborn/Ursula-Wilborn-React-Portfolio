@@ -1,5 +1,7 @@
 import React from "react";
 import "../App.css";
+import { Link } from "react-router-dom";
+import "../headerstyle.css";
 
 function Landing() {
   return (
@@ -15,7 +17,7 @@ function Landing() {
           </a>
         </div>
         <div class="split right">
-          <h3>Freelance Web Developer</h3>
+          <h3>Full Stack Web Developer</h3>
           <a href="#" class="btn">
             Explore
           </a>

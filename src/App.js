@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
 import Header from "./Components/Header";
-import Footer from "./Components/Footer";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Landing from "./pages/Landing";
+import Footer from "./Components/Footer";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
 function App() {

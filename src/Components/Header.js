@@ -1,20 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../headerstyle.css";
-import profilePicture from "../pages/images/20191012_180028.jpg";
-import displayPicture from "../pages/images/drone-3874000__340.jpg";
+// import profilePicture from "../pages/images/20191012_180028.jpg";
 
 function Header() {
   return (
     <header className="header">
-      <div className="">
-        <img src={profilePicture} align="left" className="headerleft" />
-        <img src={displayPicture} align="right" className="headerright" />
+      <div align="left" className="headerleft">
+        {/* <img src={profilePicture} align="left" className="headerleft" /> */}
+        <p className="">This is it</p>
+      </div>
+      <div align="right" className="headerright">
+        {/* <img src={profilePicture} align="left" className="headerleft" /> */}
+        <p className="">That is it</p>
       </div>
       <div className="" align="center">
         <h2>
           <Link className="name" to="/">
-            <span>Ursula Wilborn</span>
+            Ursula Wilborn
           </Link>
         </h2>
       </div>
