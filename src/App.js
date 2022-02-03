@@ -32,6 +32,7 @@ function App() {
             </Switch>
           </div>
 
+          <Landing />
           <Footer />
         </div>
       </BrowserRouter>

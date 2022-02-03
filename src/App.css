@@ -27,6 +27,7 @@ body {
   width: 100%;
   height: 50%;
   background: #333;
+  align-items: center;
 }
 
 .split {
@@ -112,4 +113,17 @@ h3 {
   padding: 0 8%;
   background: rgb(214, 86, 86);
   position: relative;
+}
+
+.linkButton {
+  width: "50px";
+  height: "30px";
+  color: black;
+  background-color: crimson;
+}
+.githubButton {
+  width: "50px";
+  height: "30px";
+  color: black;
+  background-color: grey;
 }

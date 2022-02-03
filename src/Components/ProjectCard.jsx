@@ -1,29 +1,32 @@
 import React from "react";
-import {Card, Badge, Button} from 'react-bootstrap';
+import {Card, Badge, Button, ButtonGroup} from 'react-bootstrap';
+import "../App.css";
 
 
 function ProjectCard ({data, setOrdered}){
    return (
-       <Card className="h-100 shadow-sm bg-white rounded">
+       <Card className="h-300 shadow-sm bg-white rounded">
 <Card.Img variant="top" src={process.env.PUBLIC_URL + data.src}/>
 <Card.Body className="d-flex flex-column">
     <div className="d-flex mb-2 justify-content-between">
         <Card.Title className="mb-0 font-weight-bold">{data.name}</Card.Title>
     </div>
     <Card.Text className="text-secondary">{data.desc}</Card.Text>
-<div className="btn btn-danger btn-sm ml-auto">
-    <Button
-onClick={data.github}
-className="btn btn-danger btn-sm ml-auto"
+<div display="in-line">
+<a
+href={data.github}
+target="_blank"
 >
-    Github
-</Button>
-<Button
-onClick={data.live}
-className="btn btn-secondary btn-sm ml-auto"
+    <button className="githubButton">Github</button>
+    
+                 
+                </a>
+    <a
+href={data.github}
+target="_blank"
 >
-    Live
-</Button>
+<button className="linkButton">Website</button>                
+    </a>
 </div>
 </Card.Body>
        </Card>

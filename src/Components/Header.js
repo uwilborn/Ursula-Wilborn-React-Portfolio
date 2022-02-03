@@ -22,7 +22,7 @@ function Header() {
         </h2>
       </div>
       <div>
-        <ul className="nav-links">
+        <ul className="nav-links" align="center">
           <li className="">
             <Link className="" aria-current="page" to="/">
               <span>Home</span>
