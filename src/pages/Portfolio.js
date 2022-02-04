@@ -1,6 +1,6 @@
 import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
-// import "./App.scss";
+import "../App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../Components/ProjectCard";
 import projects from "../data.json";

@@ -20,6 +20,7 @@ body {
   background-image: url("../src/pages/images/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: scroll;
 }
 
 .container {
