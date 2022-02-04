@@ -5,7 +5,7 @@ import "../App.css";
 
 function ProjectCard ({data, setOrdered}){
    return (
-       <Card className="h-300 shadow-sm bg-white rounded">
+       <Card className="h-300 shadow-sm bg-white rounded card border-danger">
 <Card.Img variant="top" src={process.env.PUBLIC_URL + data.src}/>
 <Card.Body className="d-flex flex-column">
     <div className="d-flex mb-2 justify-content-between">

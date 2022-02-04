@@ -2,15 +2,15 @@
   {
     "id": 1,
     "name": "HTML, CSS, and Git: Code Refactor",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Given starter code, set-up git repo and improve codebase so that it follows accessibility standards and the site is optimized for search engines",
     "github": "https://github.com/uwilborn/Horiseon-Improved-Accessibility",
     "live": "https://uwilborn.github.io/Horiseon-Improved-Accessibility/",
     "src": "/images/CodeRefactor.PNG"
   },
   {
     "id": 2,
-    "name": "Portfolio",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "name": "Introductory Portfolio",
+    "desc": "Create a web application from scratch that showcases skills and talents by applying core skills learned such as flexbox, media queries, and CSS variables",
     "github": "https://github.com/uwilborn/Ursula-Wilborn-Portfolio.git",
     "live": "https://uwilborn.github.io/Ursula-Wilborn-Portfolio/",
     "src": "/images/Portfolio1.png"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "JavaScript: Password Generator",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected",
     "github": "https://github.com/uwilborn/Password-Generator",
     "live": "https://uwilborn.github.io/Password-Generator/",
     "src": "/images/Password.PNG"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "name": "Web APIs: Code Quiz",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Build a timed coding quiz with multiple-choice questions. This app runs in the browser features dynamically updated HTML and CSS powered by JavaScript code with a clean, polished, and responsive user interface.",
     "github": "https://github.com/uwilborn/Challenge-Coding-Quiz.git",
     "live": "https://uwilborn.github.io/Challenge-Coding-Quiz/",
     "src": "/images/CodeQuiz.png"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "name": "Third-Party APIs: Work Day Scheduler",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Created a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app runs in the browser features dynamically updated HTML and CSS powered by jQuery",
     "github": "https://github.com/uwilborn/Workday-Schedule-App.git",
     "live": "https://uwilborn.github.io/Workday-Schedule-App/",
     "src": "/images/Scheduler.png"
@@ -42,23 +42,15 @@
   {
     "id": 6,
     "name": "Server-Side APIs: Weather Dashboard",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Build a weather dashboard that uses the [OpenWeather One Call API] to retrieve weather data for cities",
     "github": "https://github.com/uwilborn/Funky-Weather-Dashboard.git",
     "live": "https://uwilborn.github.io/Funky-Weather-Dashboard/",
     "src": "/images/Weather.png"
   },
   {
-    "id": 7,
-    "name": "Project 1",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
-    "github": "https://github.com/Xtended99/CoffeeOverFlow.git",
-    "live": "https://xtended99.github.io/CoffeeOverFlow/",
-    "src": "/images/Project1.png"
-  },
-  {
     "id": 8,
-    "name": "Portfolio 2",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "name": "Mid-level Portfolio 2",
+    "desc": "Used JavaScript to update portfolio with updated GitHub profile with pinned repositories, updated resume, and added social media icons",
     "github": "https://github.com/uwilborn/Ursula-Wilborn-Portfolio.git",
     "live": "https://uwilborn.github.io/Ursula-Wilborn-Portfolio-2/",
     "src": "/images/Portfolio2.png"
@@ -66,7 +58,7 @@
   {
     "id": 9,
     "name": "Node.js Homework: Professional README Generator",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package]. This is not a deployed application.",
     "github": "https://github.com/uwilborn/RightOn-README-Generator",
     "live": "https://drive.google.com/file/d/1H_Uu6NS3Lq83uoJIrcaKy0tx6CClaPji/view",
     "src": "/images/README.png"
@@ -74,7 +66,7 @@
   {
     "id": 10,
     "name": "Object-Oriented Programming: Team Profile Generator",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Build a Node.js command-line application that takes in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person. Tests were written every part of the code. This is not a deployed application.",
     "github": "https://github.com/uwilborn/Dynamic-Team-Generator.git",
     "live": "https://drive.google.com/file/d/1S5mc3eiRhXpBaTI9w8CBPK8QBQ-TNqJt/view",
     "src": "/images/Team.png"
@@ -82,7 +74,7 @@
   {
     "id": 11,
     "name": "Express.js: Note Taker",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Modify starter code to create an application that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file. Application is deployed to Heroku",
     "github": "https://github.com/uwilborn/Star-Note-Taker",
     "live": "https://starnotetaker.herokuapp.com/",
     "src": "/images/Notetaker.png"
@@ -90,7 +82,7 @@
   {
     "id": 12,
     "name": "MySQL Homework: Employee Tracker",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "To architect and build a solution for managing a company's employees using node, inquirer, and MySQL",
     "github": "https://github.com/uwilborn/QA-Employee-Tracker",
     "live": "https://drive.google.com/file/d/1Ah637tYqSClUBYg3DkBO4I2HMdL7SmWx/view",
     "src": "/images/ETracker.png"
@@ -98,7 +90,7 @@
   {
     "id": 13,
     "name": "Object-Relational Mapping (ORM): E-Commerce Back End",
-    "desc": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as th",
+    "desc": "Build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.",
     "github": "https://github.com/uwilborn/Cinnamon-Commerce",
     "live": "https://watch.screencastify.com/v/9uZ8VevsTLMGODTAvykb",
     "src": "/images/ECommerce.png"

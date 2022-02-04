@@ -2,13 +2,19 @@ import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
 import "../headerstyle.css";
+import profilePicture from "../pages/images/20191012_180028.jpg";
 
 function Landing() {
   return (
-    // <div className="jumboton bg-warning align-content-center justify-content-center">
-    //   <h1>Welcome</h1>
-    // </div>
-    <body>
+    <body display="inline">
+      <div className="jumboton bg-warning align-content-center justify-content-center">
+        <h1>Welcome</h1>
+      </div>
+
+      <div align="center" className="">
+        <img src={profilePicture} align="left" className="headerleft" />
+      </div>
+
       <div class="containerl">
         <div class="split left">
           <h3>Senior Quality Engineer</h3>
@@ -22,6 +28,18 @@ function Landing() {
             Explore
           </a>
         </div>
+      </div>
+
+      <div align="center">
+        <a href="#" target="_blank">
+          <button className="services">stemQA</button>
+        </a>
+        <a href="#" target="_blank">
+          <button className="services">Freelance</button>
+        </a>
+        <a href="#" target="_blank">
+          <button className="services">Github</button>
+        </a>
       </div>
     </body>
   );
