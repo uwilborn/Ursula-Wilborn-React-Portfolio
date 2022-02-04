@@ -9,7 +9,7 @@ function Landing() {
     //   <h1>Welcome</h1>
     // </div>
     <body>
-      <div class="container">
+      <div class="containerl">
         <div class="split left">
           <h3>Senior Quality Engineer</h3>
           <a href="#" class="btn">
